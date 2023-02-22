@@ -1,0 +1,43 @@
+{
+  "name": "table-unit",
+  "version": "0.0.1",
+  "description": "Custom table vib",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "unit",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/lodash": "^4.14.191",
+    "@types/mui-datatables": "^4.3.1",
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "rollup": "^3.17.2",
+    "rollup-plugin-dts": "^5.2.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@hookform/resolvers": "^2.9.11",
+    "@mui/icons-material": "^5.11.9",
+    "@mui/material": "^5.11.10",
+    "lodash": "^4.17.21",
+    "mui-datatables": "^4.3.0",
+    "react-hook-form": "^7.43.2",
+    "react-i18next": "^12.1.5",
+    "tss-react": "^4.6.1",
+    "yup": "^1.0.0"
+  }
+}
